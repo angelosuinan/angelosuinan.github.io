@@ -1,7 +1,8 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
+// import { graphql, useStaticQuery } from "gatsby"
+// import BackgroundImage from "gatsby-background-image"
 
+/*
 const query = graphql`
   query {
     file(relativePath: { eq: "mainBcg.jpeg" }) {
@@ -13,18 +14,22 @@ const query = graphql`
     }
   }
 `
-
+*/
 const Background = ({ children }) => {
-  const { file } = useStaticQuery(query)
-
+  // const { file } = useStaticQuery(query)
+  /*
   return (
     <BackgroundImage
       Tag="section"
       fluid={file.childImageSharp.fluid}
       className="background"
     >
-      {children}
     </BackgroundImage>
+  */
+  return (
+    <div className="background">
+      {children}
+    </div>
   )
 }
 
