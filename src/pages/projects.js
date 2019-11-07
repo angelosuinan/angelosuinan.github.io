@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-const courses = () => {
+const projects = () => {
   return (
     <Layout>
       <h1
@@ -10,10 +10,10 @@ const courses = () => {
           marginTop: "4rem",
         }}
       >
-        courses page
+        projects page
       </h1>
     </Layout>
   )
 }
 
-export default courses
+export default projects

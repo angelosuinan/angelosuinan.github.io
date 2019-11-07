@@ -1,12 +1,12 @@
-.course {
+.project {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
   background: var(--mainWhite);
 }
-.course:hover {
+.project:hover {
   box-shadow: var(--darkShadow);
 }
-.course h3 {
+.project h3 {
   font-size: 1rem;
 }
 
