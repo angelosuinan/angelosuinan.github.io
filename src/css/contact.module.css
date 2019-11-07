@@ -11,10 +11,12 @@
 .text p {
   font-size: 1.6rem;
   letter-spacing: 1px;
+  font-family: "Icomoon";
 }
 .text a {
   letter-spacing: var(--mainSpacing);
-  color: var(--primaryColor);
+  color: #A5E32E;
+  font-family: "Icomoon";
   transition: var(--mainTransition);
 }
 .text a:hover {

@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--darkGrey);
+  background: var(--headfoot);
   z-index: 2;
   opacity: 1;
   transition: var(--mainTransition);
@@ -59,6 +59,8 @@
   text-align: center;
   letter-spacing: var(--mainSpacing);
   transition: var(--mainTransition);
+  color: var(--white);
+  font-weight: bold;
 }
 .link:hover {
   padding-left: 3.5rem;
